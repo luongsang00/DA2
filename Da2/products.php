@@ -12,12 +12,12 @@
     		<div class="clear"></div>
     	</div>
 	      
-			<div class="content_bottom">
+			<!-- <div class="content_bottom">
     		<div class="heading">
     		<h3>Sách </h3>
     		</div>
     		<div class="clear"></div>
-    	</div>
+    	</div> -->
 		<div class="section group">
 			  <?php
 			  $product_new=$product->getproduct_book();
@@ -29,9 +29,10 @@
 					 <h2><?php echo $fm->textShorten( $result['productName'],30 )?> </h2>
 					 <p><?php echo $fm->textShorten($result['product_desc'],30) ?></p>
 					 <p><span class="price"><?php echo $fm->format_currency( $result['price'])." "."VND" ?></span></p>
-                     <p><span class="author">Tác giả: <?php echo $result['author'] ?></span></p>
+                     <p><span class="author"><?php echo $result['author'] ?></span></p>
 				     <div class="button"><span><a href="detals.php?proid=<?php echo $result['productId']?>" class="details">Chi tiết Sách</a></span></div>
-				</div>
+				</div> 
+                
 				<?php
 			  }
 			}
@@ -59,10 +60,11 @@
 
 ?>
 <style>
-	span.author {
+	/* span.author {
     font-size: 9px;
 	
-	}
+	} */
+    
 	.grid_1_of_41{
 	display: block;
 	float:left;
@@ -89,29 +91,30 @@
             padding:7px 20px;
             font-size:0.8em;
     }
-    .images_1_of_41 .button a{
-        font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
-        font-size: 14px;
-        line-height: 15px;
-        text-transform: none;
-        color: #737370;
-        text-decoration: none!important;
-        background: url(../images/button-bg.png) repeat-x 0 0 #e1caf3;
-        display: inline-block;
-        border-left: 1px solid #D4D4D4!important;
-        border-right: 1px solid #ADADAD!important;
-        border-top: 1px solid #E0E0E0!important;
-        border-bottom: 1px solid #9C9C9C!important;
-        cursor: pointer!important;
-        margin: 0 2px;
-        border-radius: 2px;
-        -moz-border-radius: 2px;
-        -webkit-border-radius: 2px;
-        -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-    }
+    
+    .images_1_of_41 .button a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: none;
+    color: #fc6eae;
+    text-decoration: none !important;
+    background: url(../images/button-bg.png) repeat-x 0 0 #faeaea;
+    display: inline-block;
+    border-left: 1px solid #ff9c9c !important;
+    border-right: 1px solid #f97272 !important;
+    border-top: 1px solid #ff9f9f !important;
+    border-bottom: 1px solid #f66868 !important;
+    cursor: pointer !important;
+    margin: 0 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
     .images_1_of_41 .button a:hover{
         color:#70389C;
         background: #E8E8E8;
@@ -122,4 +125,15 @@
     .images_1_of_41 .button a.cart-button{
         padding:7px 5px 7px 38px; 
     }
+    .images_1_of_41 p span.price {
+    font-size: 18px;
+    font-family: "Monda", sans-serif;
+    color: #cc3636;
+    margin-left: 15px;
+}
+.images_1_of_41 p {
+    font-size: 0.8125em;
+    padding: 0.4em 0;
+    color: #f36a8ad6;
+}
 </style>

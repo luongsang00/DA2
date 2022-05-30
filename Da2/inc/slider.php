@@ -11,11 +11,11 @@
 				?>
 				<div class="listview_1_of_2 images_1_of_2">
 					<div class="listimg listimg_2_of_1">
-						 <a href="detals.php?proid=<?php echo $resultKD['productId']?>"> <img src="admin/uploads/<?php echo $resultKD['image'] ?>" alt="" /></a>
+						 <a href="detals.php?proid=<?php echo $resultKD['productId']?>"> <img src="admin/uploads/<?php echo $resultKD['image'] ?>" height="200px" alt="" /></a>
 					</div>
 				    <div class="text list_2_of_1">
 						<h2>NXB Kim Đồng</h2>
-						<p><?php echo $resultKD['productName'] ?></p>
+						<p><?php echo $fm->textShorten( $resultKD['productName'],35) ?></p>
 						<div class="button"><span><a href="detals.php?proid=<?php echo $resultKD['productId'] ?>">Mua Sách</a></span></div>
 				   </div>
 			   </div>	
@@ -32,11 +32,11 @@
 				?>	
 				<div class="listview_1_of_2 images_1_of_2">
 					<div class="listimg listimg_2_of_1">
-					<a href="detals.php?proid=<?php echo $resultVH['productId']?>"> <img src="admin/uploads/<?php echo $resultVH['image'] ?>" alt="" /></a>
+					<a href="detals.php?proid=<?php echo $resultVH['productId']?>"> <img src="admin/uploads/<?php echo $resultVH['image'] ?>"   height="200px" alt="" /></a>
 					</div>
 					<div class="text list_2_of_1">
 						  <h2>NXB Văn Học</h2>
-						  <p><?php echo $resultVH['productName'] ?></p>
+						  <p><?php echo $fm->textShorten( $resultVH['productName'],35) ?></p>
 						  <div class="button"><span><a href="detals.php?proid=<?php echo $resultVH['productId'] ?>">Mua Sách</a></span></div>
 					</div>
 				</div>
@@ -55,11 +55,11 @@
 				?>
 				<div class="listview_1_of_2 images_1_of_2">
 					<div class="listimg listimg_2_of_1">
-						<a href="detals.php?proid=<?php echo $resultTD['productId']?>"> <img src="admin/uploads/<?php echo $resultTD['image'] ?>" alt="" /></a>
+						<a href="detals.php?proid=<?php echo $resultTD['productId']?>"> <img src="admin/uploads/<?php echo $resultTD['image'] ?>" height="200px" alt="" /></a>
 					</div>
 				    <div class="text list_2_of_1">
 						<h2>NXB Thời Đại</h2>
-						<p><?php echo $resultTD['productName'] ?></p>
+						<p><?php echo $fm->textShorten( $resultTD['productName'],35) ?></p>
 						<div class="button"><span><a href="detals.php?proid=<?php echo $resultTD['productId'] ?>">Mua Sách</a></span></div>
 				   </div>
 			   </div>	
@@ -76,11 +76,11 @@
 				?>	
 				<div class="listview_1_of_2 images_1_of_2">
 					<div class="listimg listimg_2_of_1">
-						<a href="detals.php?proid=<?php echo $resultBL['productId']?>"> <img src="admin/uploads/<?php echo $resultBL['image'] ?>" alt="" /></a>
+						<a href="detals.php?proid=<?php echo $resultBL['productId']?>"> <img src="admin/uploads/<?php echo $resultBL['image'] ?>" height="200px" alt="" /></a>
 					</div>
 					<div class="text list_2_of_1">
 						  <h2>Bloombury</h2>
-						  <p><?php echo $resultBL['productName'] ?></p>
+						  <p><?php echo $fm->textShorten( $resultBL['productName'],35) ?></p>
 						  <div class="button"><span><a href="detals.php?proid=<?php echo $resultBL['productId'] ?>">Mua Sách</a></span></div>
 					</div>
 				</div>

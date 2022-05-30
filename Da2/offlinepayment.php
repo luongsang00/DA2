@@ -202,7 +202,7 @@ include 'inc/footer.php';
     .submit_order{
         padding: 10px 70px;
         border: none;
-        background: green;
+        background: #f55f5f;
         font-size: 25px;
         color:white;
         display: inline-block;

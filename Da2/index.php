@@ -30,9 +30,9 @@
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="preview-3.php"><img src="admin/uploads/<?php echo $result['image'] ?>  "  height="200px" alt="" /></a>
 					 <h2><?php echo $fm->textShorten( $result['productName'],50 )?> </h2>
-					 <p><?php echo $fm->textShorten($result['product_desc'],50) ?></p>
+					 <p ><?php echo $fm->textShorten($result['product_desc'],50) ?></p>
 					 <p><span class="price"><?php echo $fm->format_currency( $result['price'])." "."VND" ?></span></p>
-					 <p><span class="author">Tác giả: <?php echo $result['author'] ?></span></p>
+					 <p><span class="author"> <?php echo $result['author'] ?></span></p>
 				     <div class="button"><span><a href="detals.php?proid=<?php echo $result['productId']?>" class="details">Chi tiết Sách</a></span></div>
 				</div>
 				<?php
@@ -56,9 +56,9 @@
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="detals.php?proid=<?php echo $result['productId']?>"><img src="admin/uploads/<?php echo $result['image'] ?>" alt="" /></a>
 					 <h2><?php echo $fm->textShorten( $result['productName'],50 )?> </h2>
-					 <p><?php echo $fm->textShorten($result['product_desc'],50)  ?></p>
+					 <p ><?php echo $fm->textShorten($result['product_desc'],50)  ?></p>
 					 <p><span class="price"><?php echo $fm->format_currency( $result['price']).' '.'VND' ?></span></p>
-					 <p><span class="author">Tác giả: <?php echo $result['author'] ?></span></p>
+					 <p ><span class="author"> <?php echo $result['author'] ?></span></p>
 				     <div class="button"><span><a href="detals.php?proid=<?php echo $result['productId']?>" class="details">Chi tiết sách</a></span></div>
 				</div>
 				<?php
@@ -88,7 +88,8 @@
 
 ?>
 <style>
-	span.author {
+	/* span.author {
     font-size: 9px;
-}
+}  */
+
 </style>

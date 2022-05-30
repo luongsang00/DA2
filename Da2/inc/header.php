@@ -153,9 +153,10 @@ $product= new product();
 		  }
 	  ?>
 	  <?php 
+	  $login_check=Session::get('customer_login');
 	  $check_cart = $ct->check_cart();
 	  	if($check_cart==true){
-			echo '<li><a href="payment.php">Thanh toán</a></li>';
+			echo '<li><a href="offlinepayment.php">Thanh toán</a></li>';
 		  }else{
 			echo '';
 		  }
@@ -167,7 +168,7 @@ $product= new product();
 	</ul>
 </div>
 <style>
-	input.grey {
+	/* input.grey {
     font-size: 20px;
     background: #353333;
     border-bottom-left-radius: 3px;
@@ -175,6 +176,6 @@ $product= new product();
     border-top-left-radius: 3px;
     border-bottom-right-radius: 3px;
     color: white;
-	}
+	} */
 	
 </style>

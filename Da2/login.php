@@ -25,8 +25,8 @@
  <div class="main">
     <div class="content">
     	 <div class="login_panel">
-        	<h3>Existing Customers</h3>
-        	<p>Sign in with the form below.</p>
+        	<h3>Đăng nhập</h3>
+        	<!-- <p>Sign in with the form below.</p> -->
 			<?php
 			if(isset($login_Customer)){
 				echo $login_Customer;
@@ -36,7 +36,7 @@
                 	<input  type="text" name="email" class="field" placeholder="Email...">
                     <input  type="password" name="password" class="field" placeholder="Mật khẩu...">
                  
-                 <p class="note">If you forgot your passoword just enter your email and click <a href="#">here</a></p>
+                 <!-- <p class="note">If you forgot your passoword just enter your email and click <a href="#">here</a></p> -->
                     <div class="buttons"><div><input type="submit" name="login" class="grey" value="Đăng nhập"></input></div></div>
 			</form>
          </div>
@@ -56,7 +56,7 @@
 						<tr>
 						<td>
 							<div>
-							<input type="text" name="name" placeholder="Nhập tên..."  >
+							<input  type="text" name="name" placeholder="Nhập tên..."  >
 							</div>
 							
 							<div>
@@ -94,7 +94,7 @@
 		    </tr> 
 		    </tbody></table> 
 		   <div class="search"><div><input type="submit" name="submit" class="grey" value="Tạo tài khoản"></input></div></div>
-		    <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p>
+		    <!-- <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p> -->
 		    <div class="clear"></div>
 		    </form>
     	</div>  	
@@ -105,3 +105,7 @@
  include 'inc/footer.php';
 
 ?>
+<style>
+	
+
+</style>
