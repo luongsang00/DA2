@@ -27,7 +27,7 @@ include_once($filepath.'/../classes/customer.php');
 ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Inbox</h2>
+                <h2>Đơn hàng</h2>
                 <div class="block">    
 					<?php
 					if(isset($shifted))

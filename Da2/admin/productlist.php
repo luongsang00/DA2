@@ -14,7 +14,7 @@ if(isset($_GET['productid']) ){
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Book List</h2>
+        <h2>Danh sách sách</h2>
         <div class="block">  
 			<?php
 			if(isset($delBook))

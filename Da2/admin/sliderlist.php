@@ -15,7 +15,7 @@ if(isset($_GET['slider_del']) ){
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Slider List</h2>
+        <h2>Dánh sách Slider</h2>
         <div class="block">  
 			<?php 
 			if(isset($del_slider)){

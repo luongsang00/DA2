@@ -31,7 +31,7 @@
 					</div>
 				
 				<div class="col_1_of_4 span_1_of_4">
-					<h4>My account</h4>
+					<h4>Tài khoản</h4>
 						<ul>
 							
 							<li><a href="index.php">Đăng Nhập</a></li>
@@ -55,25 +55,25 @@
 						</ul>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					<h4>Contact</h4>
+					<h4>Liên hệ</h4>
 						<ul>
 							<li><span>18520411@gm.uit.edu.vn</span></li>
 							<li><span>18520415@gm.uit.edu.vn</span></li>
 						</ul>
 						<div class="social-icons">
-							<h4>Follow Us</h4>
+							<!-- <h4>Follow Us</h4>
 					   		  <ul>
 							      <li class="facebook"><a href="#" target="_blank"> </a></li>
 							      <li class="twitter"><a href="#" target="_blank"> </a></li>
 							      <li class="googleplus"><a href="#" target="_blank"> </a></li>
 							      <li class="contact"><a href="#" target="_blank"> </a></li>
 							      <div class="clear"></div>
-						     </ul>
+						     </ul> -->
    	 					</div>
 				</div>
 			</div>
 			<div class="copy_right">
-				<p>Training with live project &amp; All rights Reseverd </p>
+				<!-- <p>Training with live project &amp; All rights Reseverd </p> -->
 		   </div>
      </div>
     </div>

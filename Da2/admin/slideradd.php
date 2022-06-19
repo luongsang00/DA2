@@ -10,7 +10,7 @@
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Add New Slider</h2>
+        <h2>Thêm Slider</h2>
     <div class="block">  
         <?php
         if(isset($inserSlider)){
